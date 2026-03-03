@@ -1,20 +1,15 @@
 # DCT-CISD-indikator-
 Open Source Trading Library for Market Structure and CISD Analysis.
 DC TRADERS {DCT} Framework - Open Source Trading Library
-DC TRADERS {DCT} is an advanced, open-source technical analysis framework written in Pine Script® v6. This tool is designed to assist the trading community in identifying institutional order flow, market structure shifts, and inter-market correlations (SMT Divergence) with high precision.
+DC TRADERS {DCT} is an advanced, open-source technical analysis framework written in Pine Script® v6. This tool is designed to assist the trading community in identifying institutional order flow, market structure shifts
 🚀 Key Features
 1. Change In State of Delivery (CISD) Detection
 Automatically identifies and tracks CISD levels. Unlike standard indicators, DCT uses a dynamic array system to store and manage historical levels, allowing traders to see where price delivery has shifted from bullish to bearish and vice versa.
-2. Multi-Asset SMT Divergence (Smart Money Tool)
-Includes a built-in correlation engine that tracks:
-Indices: NQ1!, ES1!, YM1!
-Forex: EURUSD, GBPUSD, AUDUSD
-Metals: XAUUSD, XAGUSD, XPTUSD
-Commodities: CL1!, RB1!, HO1!
+
 It detects divergences between correlated assets to confirm institutional accumulation or distribution.
-3. Automated Market Structure Tracking
+2. Automated Market Structure Tracking
 Uses custom type definitions to track topPrice and bottomPrice dynamically, providing a clean visual representation of current market states (Bullish/Bearish).
-4. Interactive Statistics Table
+3. Interactive Statistics Table
 A real-time dashboard on the chart that displays the current market state and active ticker info, optimized for educational live-streaming and fast research.
 🛠 Technical Implementation
 This framework is built using the latest Pine Script® v6 standards:
@@ -37,4 +32,4 @@ Contributions are welcome! If you have ideas for new correlation pairs or struct
 Fork the project.
 Create your Feature Branch.
 Submit a Pull Request.
-Developed with ❤️ by Iamdinda and the DC Traders Community.
+Developed with ❤️ by Iamdinda and the DCT Community.
